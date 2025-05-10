@@ -1,0 +1,20 @@
+#!/bin/bash
+# Fmanager - Terminal File Manager
+
+# Check Python version
+PYTHON_CMD=$(which python3 || which python)
+
+if [ -z "$PYTHON_CMD" ]; then
+    echo "Error: Python 3 is required but not installed."
+    exit 1
+fi
+
+# Run from installed location or current dir
+if [ -f "/opt/fmanager/main.py" ]; then
+    cd "/opt/fmanager" && $PYTHON_CMD main.py "$@"
+elif [ -f "$(dirname "$0")/main.py" ]; then
+    cd "$(dirname "$0")" && $PYTHON_CMD main.py "$@"
+else
+    echo "Error: Fmanager files not found!"
+    exit 1
+fi

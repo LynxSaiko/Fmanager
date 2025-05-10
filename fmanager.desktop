@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Fmanager
+GenericName=File Manager
+Comment=Modern terminal-based file manager
+Exec=fmanager
+Icon=/opt/fmanager/icon.png
+Terminal=true
+Type=Application
+Categories=Utility;FileManager;
+Keywords=file;manager;terminal;
+StartupNotify=true

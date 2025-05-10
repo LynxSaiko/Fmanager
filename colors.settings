@@ -1,0 +1,28 @@
+[Colors]
+# Format: color_name = hex_value
+background = 0a0a09
+panel_active = fc030b
+panel_inactive = 6c7086
+header = 158c03
+header_alt = ffb703
+search_bar = 1da308
+text_primary = cdd6f4
+text_secondary = 0dc2d6
+selection = 29d8f0
+directory = 1da308
+error = f38ba8
+success = a6e3a1
+
+[ColorPairs]
+# Format: pair_number = foreground_name,background_name
+1 = text_primary,background
+2 = panel_active,background
+3 = panel_inactive,background
+4 = header,background
+5 = background,selection
+6 = directory,background
+7 = directory,selection
+8 = error,background
+9 = success,background
+10 = header_alt,background
+11 = search_bar,background
