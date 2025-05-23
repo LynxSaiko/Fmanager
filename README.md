@@ -1,2 +1,1 @@
-sudo chmod +x install-fmanager.sh
-sudo ./install-fmanager.sh
+chmod +x install-fmanager.sh && sudo ./install-fmanager.sh
