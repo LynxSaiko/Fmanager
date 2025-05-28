@@ -32,7 +32,7 @@ echo "Adding desktop integration..."
 cat > /usr/share/applications/fmanager.desktop <<EOL
 [Desktop Entry]
 Name=Fmanager
-Comment=Modern Terminal File Manager
+Comment=Terminal File Manager
 Exec=fmanager
 Icon=$INSTALL_DIR/icon.png
 Terminal=true
