@@ -12,6 +12,7 @@ selection = 29d8f0
 directory = 1da308
 error = f38ba8
 success = a6e3a1
+bar = 041201
 
 [ColorPairs]
 # Format: pair_number = foreground_name,background_name
@@ -26,3 +27,4 @@ success = a6e3a1
 9 = success,background
 10 = header_alt,background
 11 = search_bar,background
+12 = bar,search_bar
